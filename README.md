@@ -4,9 +4,9 @@ This python3 program validates credit card numbers using the Luhn algorithm. It 
 
 ## Features
 
-- Validates credit card numbers using the Luhn algorithm
-- Ensures the credit card number is exactly 16 digits long
-- Handles incorrect inputs gracefully
+- Validates credit card numbers using the Luhn algorithm.
+- Ensures the credit card number is atleast 15 digits long.
+- Handles incorrect inputs gracefully.
 
 ## Requirements
 
