@@ -1,6 +1,6 @@
 # Credit Card Validator
 
-This python3 program validates credit card numbers using the Luhn algorithm. It verifies the checksum and correct digit sequence, ensuring that the input is a valid 16-digit credit card number. This project is part of my collection of simple [validation projects](https://github.com/AgSpades/validation-projects) using Python.
+This python3 program validates credit card numbers using the Luhn algorithm. It verifies the checksum and correct digit sequence, ensuring that the input is a valid credit card number. This project is part of my collection of simple [validation projects](https://github.com/AgSpades/validation-projects) using Python.
 
 ## Features
 
@@ -32,7 +32,7 @@ Valid credit card number.
 ```
 ## How It Works
 
-1. Input Validation: The program first checks if the input is a string of 16 digits.
+1. Input Validation: The program first checks if the input is atleast a string of 15 digits.
 2. Luhn Algorithm: It then processes the digits using the Luhn algorithm to determine if the number is valid.
 3. Checksum Calculation: The Luhn algorithm calculates a checksum by:
     - Doubling every second digit from the right.
