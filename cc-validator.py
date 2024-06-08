@@ -21,7 +21,7 @@ def luhn_check(card_number):
     return checksum % 10 == 0
 
 def is_valid_card(card_number):
-    if not card_number.isdigit() or len(card_number) != 16:
+    if not card_number.isdigit() or len(card_number) < 15:
         return False
     return luhn_check(card_number)
 
