@@ -21,7 +21,7 @@ This python3 program validates credit card numbers using the Luhn algorithm. It 
     python3 cc-validator.py
     ```
 
-3. Enter a 16-digit credit card number when prompted.
+3. Enter credit card number when prompted.
 
 ## Example
 
